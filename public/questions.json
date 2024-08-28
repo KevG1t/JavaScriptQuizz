@@ -1,113 +1,552 @@
 {
-    "questions": [
-      {
-        "id": 1,
-        "question": "Inside which HTML element do we put the JavaScript?",
-        "options": [
-          "<javascript>",
-          "<js>",
-          "<script>",
-          "<scripting>"
-        ],
-        "correctOption": 2
-      },
-      {
-        "id": 2,
-        "question": "What is the correct JavaScript syntax to change the content of the HTML element below?\n\n#demo.innerHTML = \"Hello World!\";",
-        "options": [
-          "document.getElement(\"p\").innerHTML = \"Hello World!\";",
-          "document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
-          "document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
-          "demo.innerHTML = \"Hello World!\";"
-        ],
-        "correctOption": 1
-      },
-      {
-        "id": 3,
-        "question": "Where is the correct place to insert a JavaScript?",
-        "options": [
-          "The <head> section",
-          "The <footer>",
-          "The <body> section",
-          "Both the <head> section and the <body> section are correct"
-        ],
-        "correctOption": 3
-      },
-      {
-        "id": 4,
-        "question": "How do you create a function in JavaScript?",
-        "options": [
-          "function myFunction()",
-          "function = myFunction()",
-          "function:myFunction()",
-          "myFunction() = function"
-        ],
-        "correctOption": 0
-      },
-      {
-        "id": 5,
-        "question": "How to write an IF statement in JavaScript?",
-        "options": [
-          "if i = 5 then",
-          "if i == 5 then",
-          "if i = 5",
-          "if (i == 5)"
-        ],
-        "correctOption": 3
-      },
-      {
-        "id": 6,
-        "question": "How can you add a comment in a JavaScript?",
-        "options": [
-          "//This is a comment",
-          "<!--This is a comment-->",
-          "'This is a comment",
-          "\"This is a comment\""
-        ],
-        "correctOption": 0
-      },
-      {
-        "id": 7,
-        "question": "What is the correct way to write a JavaScript array?",
-        "options": [
-          "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
-          "var colors = [\"red\", \"green\", \"blue\"]",
-          "var colors = \"red\", \"green\", \"blue\"",
-          "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")"
-        ],
-        "correctOption": 1
-      },
-      {
-        "id": 8,
-        "question": "What is the correct JavaScript syntax for opening a new window called \"w2\" ?",
-        "options": [
-          "w2 = window.new(\"http://www.w3schools.com\");",
-          "w2 = window.open(\"http://www.w3schools.com\");",
-          "window.open(\"http://www.w3schools.com\", w2);",
-          "window.new(\"http://www.w3schools.com\", w2);"
-        ],
-        "correctOption": 1
-      },
-      {
-        "id": 9,
-        "question": "How do you declare a JavaScript variable?",
-        "options": [
-          "v carName;",
-          "var carName;",
-          "variable carName;",
-          "new carName;"
-        ],
-        "correctOption": 1
-      },
-      {
-        "id": 10,
-        "question": "Is JavaScript case-sensitive?",
-        "options": [
-          "True",
-          "False"
-        ],
-        "correctOption": 0
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "id": 1,
+      "question": "Inside which HTML element do we put the JavaScript?",
+      "options": [
+        "<javascript>",
+        "<js>",
+        "<script>",
+        "<scripting>"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "What is the correct JavaScript syntax to change the content of the HTML element below?\n\n#demo.innerHTML = \"Hello World!\";",
+      "options": [
+        "document.getElement(\"p\").innerHTML = \"Hello World!\";",
+        "document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
+        "document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
+        "demo.innerHTML = \"Hello World!\";"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "Where is the correct place to insert a JavaScript?",
+      "options": [
+        "The <head> section",
+        "The <footer>",
+        "The <body> section",
+        "Both the <head> section and the <body> section are correct"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 4,
+      "question": "How do you create a function in JavaScript?",
+      "options": [
+        "function myFunction()",
+        "function = myFunction()",
+        "function:myFunction()",
+        "myFunction() = function"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "How to write an IF statement in JavaScript?",
+      "options": [
+        "if i = 5 then",
+        "if i == 5 then",
+        "if i = 5",
+        "if (i == 5)"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 6,
+      "question": "How can you add a comment in a JavaScript?",
+      "options": [
+        "//This is a comment",
+        "<!--This is a comment-->",
+        "'This is a comment",
+        "\"This is a comment\""
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "What is the correct way to write a JavaScript array?",
+      "options": [
+        "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+        "var colors = [\"red\", \"green\", \"blue\"]",
+        "var colors = \"red\", \"green\", \"blue\"",
+        "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "What is the correct JavaScript syntax for opening a new window called \"w2\" ?",
+      "options": [
+        "w2 = window.new(\"http://www.w3schools.com\");",
+        "w2 = window.open(\"http://www.w3schools.com\");",
+        "window.open(\"http://www.w3schools.com\", w2);",
+        "window.new(\"http://www.w3schools.com\", w2);"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "How do you declare a JavaScript variable?",
+      "options": [
+        "v carName;",
+        "var carName;",
+        "variable carName;",
+        "new carName;"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "Is JavaScript case-sensitive?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+      "options": [
+        "It enables strict mode, which catches common coding mistakes.",
+        "It makes variables immutable.",
+        "It disables the use of global variables.",
+        "It forces all functions to be anonymous."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is not a reserved keyword in JavaScript?",
+      "options": [
+        "class",
+        "enum",
+        "function",
+        "const"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 13,
+      "question": "What does the 'this' keyword refer to in a method inside an object?",
+      "options": [
+        "The global object",
+        "The object itself",
+        "The function's prototype",
+        "The DOM element that triggered the event"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 14,
+      "question": "Which method is used to merge two or more arrays in JavaScript?",
+      "options": [
+        "merge()",
+        "concat()",
+        "join()",
+        "combine()"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 15,
+      "question": "What is the output of the following code?\n\nconsole.log([] + []);",
+      "options": [
+        "\"[object Object]\"",
+        "0",
+        "\"\"",
+        "undefined"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is not a primitive data type in JavaScript?",
+      "options": [
+        "String",
+        "Number",
+        "Object",
+        "Boolean"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 17,
+      "question": "How can you check if a variable is an array in JavaScript?",
+      "options": [
+        "typeof variable === 'array'",
+        "variable.isArray()",
+        "Array.isArray(variable)",
+        "variable instanceof Array"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 18,
+      "question": "What is the difference between '==' and '===' in JavaScript?",
+      "options": [
+        "'==' compares values, while '===' compares values and types.",
+        "'==' compares values and types, while '===' compares only values.",
+        "'==' compares objects, while '===' compares arrays.",
+        "There is no difference."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is not a way to create an object in JavaScript?",
+      "options": [
+        "Object.create()",
+        "Object()",
+        "new Object()",
+        "create.Object()"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 20,
+      "question": "What does JSON stand for?",
+      "options": [
+        "JavaScript Online Notation",
+        "JavaScript Object Notation",
+        "JavaScript Object Network",
+        "JavaScript Option Notation"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 21,
+      "question": "How can you iterate over all properties of an object?",
+      "options": [
+        "for...of loop",
+        "for...in loop",
+        "forEach loop",
+        "Object.iterate()"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 22,
+      "question": "Which of the following statements is true about 'let' and 'var'?",
+      "options": [
+        "'let' has block scope, while 'var' does not.",
+        "'let' can be redeclared, while 'var' cannot.",
+        "'let' is hoisted, while 'var' is not.",
+        "'let' is used for constants, while 'var' is used for variables."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 23,
+      "question": "How can you define a class in JavaScript?",
+      "options": [
+        "class MyClass = {}",
+        "function MyClass() {}",
+        "class MyClass {}",
+        "MyClass = class {}"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 24,
+      "question": "What is the purpose of the 'finally' block in a try-catch statement?",
+      "options": [
+        "It runs if the code in the try block fails.",
+        "It runs only if an error is caught.",
+        "It runs regardless of the result of the try-catch block.",
+        "It handles any uncaught errors."
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 25,
+      "question": "Which of the following is not a falsy value in JavaScript?",
+      "options": [
+        "0",
+        "null",
+        "\"false\"",
+        "undefined"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 26,
+      "question": "Which method is used to serialize an object into a JSON string?",
+      "options": [
+        "JSON.stringify()",
+        "JSON.parse()",
+        "JSON.encode()",
+        "JSON.toString()"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 27,
+      "question": "Which method is used to bind a function to an object in JavaScript?",
+      "options": [
+        "apply()",
+        "bind()",
+        "call()",
+        "link()"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 28,
+      "question": "What is the difference between 'map()' and 'forEach()' in JavaScript?",
+      "options": [
+        "'map()' modifies the array, 'forEach()' does not.",
+        "'map()' returns a new array, 'forEach()' returns undefined.",
+        "'forEach()' is faster than 'map()'.",
+        "'map()' is only for objects, 'forEach()' is for arrays."
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 29,
+      "question": "How can you check if a property exists in an object?",
+      "options": [
+        "'property' in object",
+        "object.hasProperty('property')",
+        "object.includes('property')",
+        "object.hasOwnProperty('property')"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 30,
+      "question": "What is the purpose of the 'delete' operator in JavaScript?",
+      "options": [
+        "To remove a property from an object.",
+        "To remove an element from an array.",
+        "To delete a variable.",
+        "To delete a function."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 31,
+      "question": "How can you create a new promise in JavaScript?",
+      "options": [
+        "Promise myPromise = {}",
+        "let myPromise = new Promise()",
+        "let myPromise = Promise.create()",
+        "let myPromise = new Promise(function(resolve, reject) {})"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 32,
+      "question": "Which of the following is an example of a self-executing anonymous function?",
+      "options": [
+        "function() {}()",
+        "(function() {})()",
+        "()function() {}",
+        "((){})()"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 33,
+      "question": "Which method can be used to add an element to the end of an array?",
+      "options": [
+        "push()",
+        "add()",
+        "append()",
+        "concat()"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 34,
+      "question": "What will be the output of the following code?\n\nconsole.log(typeof null);",
+      "options": [
+        "\"null\"",
+        "\"undefined\"",
+        "\"object\"",
+        "\"string\""
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 35,
+      "question": "Which of the following is true about JavaScript closures?",
+      "options": [
+        "They can access variables from their outer scope.",
+        "They can only access global variables.",
+        "They are created only with arrow functions.",
+        "They cannot be passed as arguments."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 36,
+      "question": "What is the purpose of the 'rest' operator in JavaScript?",
+      "options": [
+        "To merge objects or arrays.",
+        "To spread elements of an array.",
+        "To collect all remaining arguments into an array.",
+        "To rest the execution of a function."
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 37,
+      "question": "What does 'NaN' stand for in JavaScript?",
+      "options": [
+        "Not a Number",
+        "Null and Null",
+        "No Assigned Name",
+        "Negative and Null"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 38,
+      "question": "How can you create a deep copy of an object in JavaScript?",
+      "options": [
+        "Object.copy()",
+        "JSON.parse(JSON.stringify(object))",
+        "object.clone()",
+        "Object.assign({}, object)"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 39,
+      "question": "Which of the following statements about async/await is correct?",
+      "options": [
+        "await can only be used inside an async function.",
+        "async can only be used inside a generator function.",
+        "await pauses the execution of all JavaScript code.",
+        "async makes the function run on a separate thread."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 40,
+      "question": "What will be the output of the following code?\n\nlet x = 0.1 + 0.2;\nconsole.log(x === 0.3);",
+      "options": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 41,
+      "question": "What is the output of the following code?\n\nconsole.log(1 + '1' - 1);",
+      "options": [
+        "\"11\"",
+        "\"1\"",
+        "10",
+        "0"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 42,
+      "question": "Which of the following statements is true about JavaScript's 'event loop'?",
+      "options": [
+        "It allows for asynchronous operations to be handled after synchronous code.",
+        "It executes all code in the call stack.",
+        "It handles only DOM events.",
+        "It is only used in browser environments."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 43,
+      "question": "How can you prevent a form from submitting in JavaScript?",
+      "options": [
+        "event.preventDefault()",
+        "form.stop()",
+        "event.stopPropagation()",
+        "return false;"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 44,
+      "question": "What does 'null' represent in JavaScript?",
+      "options": [
+        "An empty string",
+        "A reference to a non-existent object",
+        "A falsy value",
+        "The absence of a value"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 45,
+      "question": "Which of the following is true about 'setTimeout' in JavaScript?",
+      "options": [
+        "It executes code after a specified delay.",
+        "It executes code at regular intervals.",
+        "It blocks the execution of subsequent code.",
+        "It immediately executes the callback function."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 46,
+      "question": "What will be the output of the following code?\n\nconsole.log(!!'false');",
+      "options": [
+        "false",
+        "true",
+        "\"false\"",
+        "\"true\""
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 47,
+      "question": "How do you find the minimum value of an array in JavaScript?",
+      "options": [
+        "Math.min.apply(null, array)",
+        "Math.min(array)",
+        "Math.lowest(array)",
+        "Array.min(array)"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 48,
+      "question": "Which of the following methods removes the last element from an array?",
+      "options": [
+        "pop()",
+        "push()",
+        "shift()",
+        "splice()"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 49,
+      "question": "What is the output of the following code?\n\nconsole.log(typeof NaN);",
+      "options": [
+        "\"number\"",
+        "\"object\"",
+        "\"undefined\"",
+        "\"NaN\""
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 50,
+      "question": "How can you remove a property from an object in JavaScript?",
+      "options": [
+        "delete object.property",
+        "object.property = undefined",
+        "object.property.remove()",
+        "unset(object.property)"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

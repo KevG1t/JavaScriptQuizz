@@ -13,6 +13,5 @@ export const useQuestionsData = () => {
     else if (userSelectedOption === correctOption) correct++
     else incorrect++
   })
-  console.log({ questions, correct, incorrect, unanswered })
   return { correct, incorrect, unanswered }
 }
